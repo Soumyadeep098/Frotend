@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Elements layout</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        body{
+            width: 100%;
+            height: 100vh;
+        }
+
+        header{
+            background-color: aqua;
+            color: black;
+            text-align: center;
+            font-weight: bolder;
+            padding: 20px;
+            font-size: x-large;
+            text-transform: capitalize;
+        }
+
+        p , section , aside {
+            border: 2px solid;
+            text-align: center;
+        }
+
+        main{
+            display: grid;
+            grid-template-columns: repeat(2 , 49.7em);
+        }
+
+        p{
+            background-color: aquamarine;
+            padding: 112px 233px;
+            
+        }
+
+        section{
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+
+        aside{
+            background-color: cadetblue;
+            color: whitesmoke;
+            width: 50%;
+            margin: 0 399.2px;
+            height: 300px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>This is header and navbar</nav>
+    </header>
+
+    <main>
+        <p>This is main tag it is used for main content
+        </p>
+        <aside>This is aside it is used for putting content a side</aside>
+        <section>This is section tag it is used to <mark>Divided</mark> section</section>
+    </main>
+
+    <details>Hello
+        <summary>Yo</summary>
+    </details>
+
+    <time datetime="11:37">14:00</time>
+
+    <footer>This is footer</footer>
+</body>
+</html>
