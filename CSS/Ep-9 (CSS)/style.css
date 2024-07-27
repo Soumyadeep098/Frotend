@@ -1,0 +1,14 @@
+span{
+    color: cornflowerblue;
+    text-decoration: underline;
+}
+
+p{
+    text-decoration: underline wavy;font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+
+a{
+    text-decoration: none; 
+}
