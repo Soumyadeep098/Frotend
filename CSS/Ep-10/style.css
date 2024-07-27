@@ -1,0 +1,31 @@
+.html{
+    color: #dd4b25;
+}
+
+.css{
+    color:#254bdd;
+}
+
+.Javascript{
+    color:#efd81d;
+}
+
+li{
+    font-weight: 700;
+}
+
+#Html , #Css , #js{
+    font-size: 32px;
+}
+
+[class] {
+    text-decoration: underline;
+}
+
+[rick] {
+    font-size: 30px;
+}
+
+h1:hover{
+    color: aqua;
+}
