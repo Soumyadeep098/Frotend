@@ -5,39 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Box Model Part - 2</title>
     <style>
-        .parent{
-            background-color: red;
-        }
+      .parent {
+        background-color: red;
+      }
 
+      .one {
+        background-color: blueviolet;
+        color: aquamarine;
+        width: 300px;
+        padding: 25px;
+        border: 10px solid greenyellow;
+        box-sizing: border-box;
+      }
 
-        .one{
-            background-color: blueviolet;
-            color: aquamarine;
-            width: 300px;
-            padding: 25px ;
-            border: 10px solid greenyellow;
-            box-sizing: border-box;
-        }
+      .two {
+        margin: 30px;
+        width: 200px;
+        height: 200px;
+        border: 10px solid;
+        border-radius: 50%;
+        overflow: hidden;
+      }
 
-        .two{
-            margin: 12px;
-        }
+      img {
+        width: 100%;
+        height: 100%;
+      }
     </style>
   </head>
   <body>
     <h1>Padding . margin</h1>
     <div class="parent">
-    <div class="one">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos vel hic nisi
-      atque quia, quo obcaecati voluptate rerum harum. Similique quae libero
-      quisquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolorum deleniti ullam aperiam quidem reprehenderit nulla necessitatibus laboriosam dicta laudantium nisi magni, facere vel et nihil voluptas molestiae culpa tenetur quisquam eveniet cum consectetur atque, debitis dignissimos? Quod quaerat molestias officiis asperiores autem! Nesciunt minima magnam fugit illum dicta porro?
+      <div class="one">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos vel hic
+        nisi atque quia, quo obcaecati voluptate rerum harum. Similique quae
+        libero quisquam? Lorem ipsum dolor sit amet, consectetur adipisicing
+        elit. Cupiditate dolorum deleniti ullam aperiam quidem reprehenderit
+        nulla necessitatibus laboriosam dicta laudantium nisi magni, facere vel
+        et nihil voluptas molestiae culpa tenetur quisquam eveniet cum
+        consectetur atque, debitis dignissimos? Quod quaerat molestias officiis
+        asperiores autem! Nesciunt minima magnam fugit illum dicta porro?
+      </div>
     </div>
-</div>
 
-<div class="one two">
-    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos vel hic nisi
-    atque quia, quo obcaecati voluptate rerum harum. Similique quae libero
-    quisquam? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate dolorum deleniti ullam aperiam quidem reprehenderit nulla necessitatibus laboriosam dicta laudantium nisi magni, facere vel et nihil voluptas molestiae culpa tenetur quisquam eveniet cum consectetur atque, debitis dignissimos? Quod quaerat molestias officiis asperiores autem! Nesciunt minima magnam fugit illum dicta porro?
-  </div>
+    <div class="two">
+      <img src="1.jpg" alt=""/>
+    </div>
   </body>
 </html>
